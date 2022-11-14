@@ -41,7 +41,7 @@ public abstract class LocalPlayerMixin {
         boolean isSpectator = localPlayerMode == GameType.SPECTATOR;
 
         if (!isUnderwater && !isCreative && !isSpectator) {
-            this.setSprinting(false);
+            this.setSprinting(true);
         }
     }
 }
